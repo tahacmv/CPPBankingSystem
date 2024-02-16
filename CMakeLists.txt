@@ -3,4 +3,6 @@ project(CPPBankingSystem)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(CPPBankingSystem main.cpp)
+add_executable(CPPBankingSystem src/main.cpp
+        test/test.cpp
+        test/test.h)
